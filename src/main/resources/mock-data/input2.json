@@ -1,0 +1,66 @@
+[
+  {
+    "OrderID": "OrderID",
+    "OrderLineID": "OrderLineID",
+    "CustomerId": "John_Doe",
+    "Name": "Test 1 Order",
+    "ServiceCode": "CollectContent",
+    "OrderComment": "This is a order created ",
+    "ActivityComment": "This is a activity created",
+    "OrganisationCode": "ORGA_CODE",
+    "RestrictOnOrganisationCode": false,
+    "IsUnrestricted": false,
+    "Priority": 1,
+    "ContainerType": "bin5m3",
+    "NumberOfBins": 3,
+    "OrderedDateFrom": "2020-03-16",
+    "OrderedDateTo": "2021-03-14",
+    "Client": {
+      "ContactName": "John",
+      "Phone": "0045 123456",
+      "CompanyName": "ORGA_CODE",
+      "OpeningHours": [
+        {
+          "Weekday": "Monday",
+          "From": "08:00:00",
+          "To": "16:00:00"
+        }
+      ],
+      "Address": {
+        "Coordinates": {
+          "Latitude": 22.69935,
+          "Longitude": 22.53046
+        },
+        "StreetName": "streename",
+        "HouseNumber": "22",
+        "HousePostfix": "J",
+        "PostalCode": "999",
+        "City": "CityName",
+        "Country": "CountryCode"
+      },
+      "ExtraTime": "30"
+    },
+    "OrderInfotexts": [
+      {
+        "Key": "Region ID",
+        "Value": "DK_1253FX"
+      }
+    ],
+    "ActivityInfotexts": [
+      {
+        "Key": "Region ID",
+        "Value": "DK_1253FX"
+      }
+    ],
+    "Trucks": [],
+    "BasicPlan": {
+      "Resource": "John_Doe",
+      "ResourceType": "Driver",
+      "Trip": "TestTrip1",
+      "Time": "2020-03-16 08:30:00",
+      "PickupTerminal": "CPH_Terminal",
+      "DeliveryTerminal": "CPH_Terminal",
+      "SequenceNumber": 1
+    }
+  }
+]
